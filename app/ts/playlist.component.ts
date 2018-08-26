@@ -3,7 +3,7 @@ import {config} from './config.service';
 
 @Component({
     selector: 'paylist',
-    templateurl: 'app/ts/palylist.component.html' // Data Baindings;
+    templateUrl: 'app/ts/PlaylistComponent.html' 
 })
 
 export class PlaylistComponent {
