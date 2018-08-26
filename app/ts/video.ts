@@ -1,4 +1,4 @@
-export class video{
+export class Video{
   id:number;
   title: string;
   videoCode:string;

@@ -2,8 +2,8 @@ import {Component} from 'angular2/core';
 import {config} from './config.service';
 
 @Component({
-    selector: 'paylist',
-    templateUrl: 'app/ts/PlaylistComponent.html' 
+    selector: 'playlist',
+    templateUrl: 'app/ts/playlist.component.html'
 })
 
 export class PlaylistComponent {
