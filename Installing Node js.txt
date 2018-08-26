@@ -1,0 +1,5 @@
+1. download node.js and install
+2. download any angular project templete like : https://github.com/buckyroberts/angular-2-template
+3. open the project folder in cmd
+4. type  npm isntall command to install all node_modules
+5. tpe npm start for: automatic browser updates.
