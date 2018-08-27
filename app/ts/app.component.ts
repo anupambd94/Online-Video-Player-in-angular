@@ -1,7 +1,7 @@
 import {Component} from 'angular2/core';
 import {config} from './config.service';
 import {Video} from './video'
-import {PlaylistComponent} from './PlaylistComponent'
+import {PlaylistComponent} from './playlist.component'
 @Component({
     selector: 'my-app',
     templateUrl: 'app/ts/app.component.html'    // Data Baindings;
