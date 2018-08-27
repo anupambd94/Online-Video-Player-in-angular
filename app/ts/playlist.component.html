@@ -1,12 +1,12 @@
 <table class="table table-hover">
   <thead>
-    <td>ID</td>
-    <td>Title</td>
-    <td>Describtion</td>
+    <td scope="col">ID</td>
+    <td scope="col">Title</td>
+    <td scope="col">Describtion</td>
   </thead>
   <tbody>
     <tr *ngFor="#v of videos">
-      <td>{{v.id}}</td>
+      <td scope="row">{{v.id}}</td>
       <td>{{v.title}}</td>
       <td>{{v.desc}}</td>
     </tr>
