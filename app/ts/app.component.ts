@@ -15,8 +15,8 @@ export class AppComponent {
 
   constructor(){
     this.videos = [
-      new Video(1,"Cannot connect to WMI Provider problem solution for SQL Management Studio 2017", "aj7iyil4tDU&t","rror message when you open SQL Server Configuration Manager in SQL Server: Cannot connect to WMI provider. You do not have permission or the server is unreachable")
-      new Video(1,"laravel 5.6 2018 full installation Full process Step by Step", "V0jfhizO43c&t","installing laravel on windows"),
+      new Video(1,"Cannot connect to WMI Provider problem solution for SQL Management Studio 2017", "aj7iyil4tDU&t","rror message when you open SQL Server Configuration Manager in SQL Server: Cannot connect to WMI provider. You do not have permission or the server is unreachable"),
+      new Video(2,"laravel 5.6 2018 full installation Full process Step by Step", "V0jfhizO43c&t","installing laravel on windows")
     ];
   }
 
