@@ -1,5 +1,6 @@
 import {Component} from 'angular2/core';
 import {config} from './config.service';
+import {Video} from './video'
 
 @Component({
     selector: 'playlist',
@@ -8,4 +9,7 @@ import {config} from './config.service';
 })
 
 export class PlaylistComponent {
+  onselect(vid.video){
+    console.log(JSON.stringify(vid));
+  }
 }

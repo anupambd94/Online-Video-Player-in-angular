@@ -5,7 +5,7 @@
     <td scope="col">Describtion</td>
   </thead>
   <tbody>
-    <tr *ngFor="#v of videos">
+    <tr *ngFor="#v of videos" (click)="onselect()">
       <td scope="row">{{v.id}}</td>
       <td>{{v.title}}</td>
       <td>{{v.desc}}</td>
